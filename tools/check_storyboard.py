@@ -53,6 +53,7 @@ with sync_playwright() as p:
  page.locator('#search').fill('해당없음');assert '검색 결과가 없습니다' in page.locator('#sceneNav').inner_text()
  page.locator('#search').fill('');page.locator('#actFilter').select_option('all');page.locator('#gridTab').click();assert page.locator('.card').count()==10
  page.locator('.card').first.click();assert page.locator('#detailView').is_visible()
+ if page.locator('#showKey').count():page.locator('#showKey').click()
  page.locator('#openImage').click();assert page.locator('#imageDialog').is_visible();page.keyboard.press('Escape')
  page.locator('#compareFaces').click();assert page.locator('#faceDialog').is_visible();assert page.locator('#originalGirl').get_attribute('src')=='assets/characters.png';page.keyboard.press('Escape')
  page.locator('#references').click();page.locator('[data-ref="props_animals"]').click();assert page.locator('#referenceImage').get_attribute('src')=='assets/props_animals.png';page.keyboard.press('Escape')

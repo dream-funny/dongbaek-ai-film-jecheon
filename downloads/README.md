@@ -1,14 +1,16 @@
-# 동백꽃 — 소용량 다운로드
+# 동백꽃 — 콘티·영상 다운로드
 
-비공개 저장소에 접근 가능한 GitHub 계정으로 로그인하세요. 파일을 열고 **Download raw file / 원본 파일 다운로드**를 누르면 됩니다.
+비공개 저장소에 접근 가능한 GitHub 계정으로 로그인하고, 파일 페이지의 **↓ Download raw file**을 누르세요.
 
-**[키 이미지 35장 + 영상 프롬프트만 받기 — 10.48MB](keyframes-and-prompts.zip)**
+1. **[영상 포함 콘티 앱 ZIP — 28.8MB](DONGBAEK_LIGHT_PACKAGE.zip)**: 전체 압축 해제 후 HTML을 엽니다. `videos` 폴더를 함께 보관하세요.
 
-1. **[콘티 + 이미지 35장 + 프롬프트 ZIP — 22.08MB](DONGBAEK_LIGHT_PACKAGE.zip)**: 압축 해제 후 HTML을 엽니다. 이미지 JPEG도 별도로 들어 있습니다.
+2. **[이미지·영상 내장 HTML 하나만 받기 — 43.64MB](DONGBAEK_STORYBOARD_LIGHT.html)**: 이 파일 하나만 복사해도 오프라인으로 작동합니다.
 
-2. **[HTML 하나만 받기 — 15.64MB](DONGBAEK_STORYBOARD_LIGHT.html)**: 이미지 35장·영상 프롬프트·복사 버튼 포함. 내려받아 브라우저로 엽니다.
+3. **[키 이미지 35장 + 영상 프롬프트만 받기 — 10.48MB](keyframes-and-prompts.zip)**
 
-이미지 다시 생성이나 얼굴·구도 변경 없이 JPEG 압축만 적용했습니다. 픽셀 크기도 유지합니다. 경량 HTML의 PNG 저장은 압축 미리보기를 PNG로 변환합니다. 아래 원본 PNG는 손실 없이 그대로 보관했습니다.
+S01 영상 4컷은 업로드한 원본을 그대로 포함했습니다. 개별 영상의 전체 재생과 편집 구간 재생을 선택할 수 있습니다. **S01 영상 이어보기**는 8+8+5+4초, 총 25초입니다. 등록과 검토 완료는 구분합니다.
+
+이미지 경량 미리보기는 JPEG 압축이며, PNG 저장은 미리보기를 PNG로 변환합니다. 아래 원본 PNG는 그대로 유지합니다.
 
 ## 고화질 원본 PNG — 필요한 씬만 받기
 
@@ -25,4 +27,4 @@
 |S09|말하지 않을게|[9.45MB 다운로드](S09_ORIGINAL_PNG.zip)|
 |S10|꽃 속으로|[10.85MB 다운로드](S10_ORIGINAL_PNG.zip)|
 
-[이미지·프롬프트 바로 보기](../storyboard/GALLERY.md) · [사용 방법](../storyboard/README.md)
+[이미지·프롬프트·등록 영상 보기](../storyboard/GALLERY.md) · [사용 방법](../storyboard/README.md)

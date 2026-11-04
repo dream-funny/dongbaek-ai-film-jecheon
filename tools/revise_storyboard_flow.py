@@ -5,6 +5,7 @@ ROOT=Path(__file__).resolve().parent.parent
 runpy.run_path(str(ROOT/'tools/build_storyboard.py'))
 p=ROOT/'storyboard';data=json.loads((p/'storyboard.json').read_text())
 override_path=p/'CLIP_OVERRIDES.json';overrides=json.loads(override_path.read_text()) if override_path.exists() else {}
+media_path=p/'VIDEO_MANIFEST.json';media=json.loads(media_path.read_text()) if media_path.exists() else {}
 groups=[[[0],[1],[2,3],[4]],[[0],[1,2],[3]],[[0],[1],[3]],[[0,1],[2],[3]],[[0,1],[2],[3],[4]],[[0],[1,2],[3]],[[0,1],[2],[3,4],[5]],[[0],[1],[3]],[[0,1],[2,3],[4],[5]],[[0,1],[2,3],[4],[5]]]
 durations=[[8,8,5,4],[8,8,4],[8,8,4],[8,8,4],[8,8,5,4],[8,8,4],[8,8,8,6],[8,8,4],[8,8,8,6],[8,8,8,6]]
 starts=[
@@ -57,6 +58,8 @@ for i,s in enumerate(data['scenes']):
   c={'id':cid,'duration':dur,'generatedDuration':8,'start':local,'globalStart':globaltime,'globalEnd':globaltime+dur,'startTitle':start[0],'startDescription':start[1],'image':f'assets/{cid}.png','actionKo':ko,'actionEn':en,'cameraKo':camko,'cameraEn':camen,'dialogue':dialogue,'soundKo':sndko,'soundEn':snden,'ko':promptko,'en':prompten,'imageKo':keyko,'imageEn':imageprompt}
   if cid in overrides:
    c.update(overrides[cid]);ko=c['actionKo'];en=c['actionEn'];camko=c['cameraKo'];imageprompt=c['imageEn'];start=(c['startTitle'],c['startDescription'])
+  if cid in media:
+   c['video']=media[cid]['path'];c['videoMeta']=media[cid]
   new.append(c);key_specs.append({'id':cid,'prompt':imageprompt});timeline.append([cid,s['title'],globaltime,globaltime+dur,8,dur,start[0],ko,camko,dialogue,c['image']]);local+=dur;globaltime+=dur
  s['clips']=new;s['image']=new[0]['image'];s['imageType']='컷별 시작 키프레임 · Flow 8초 생성'
  if i==0:
@@ -65,11 +68,11 @@ for i,s in enumerate(data['scenes']):
   s['characters']='나 C01 / 어머니 C03(화면 밖 목소리만)';s['action']='나가 작은 수탉을 품에 안는다. / 나가 화면 밖 어머니에게 말한다. / 나가 이웃집을 가리키려다 경고를 듣고 손을 내린다. / 나가 입을 다문다.';s['dialogue']='나: 점순이가 또 싸움 붙였어. / 어머니(화면 밖): 그 집은 마름이야. 밉보이면 밭도 못 부쳐.';s['notes']='화면에는 나만 등장. 어머니 신체·손·실루엣 없음.'
  assert local==s['duration']
 assert len(key_specs)==35 and globaltime==240
-data['version']='Flow 편집본 v1.1';data['notes']='35컷·240초. 컷별 Flow 생성 8초, 편집 4~8초. 어머니 모두 음성만. 실제 영상 미생성.'
+data['version']='Flow 편집본 v1.1';data['notes']=f'35컷·240초. 컷별 Flow 생성 8초, 편집 4~8초. 어머니 모두 음성만. 등록 영상 {len(media)}개, 나머지 컷은 키 이미지.'
 (p/'storyboard.json').write_text(json.dumps(data,ensure_ascii=False,indent=2));(p/'data.js').write_text('window.STORYBOARD = '+json.dumps(data,ensure_ascii=False,indent=2)+';\n');(p/'keyframe_specs.json').write_text(json.dumps(key_specs,ensure_ascii=False,indent=2))
 with (p/'FLOW_EDIT_LIST.csv').open('w',encoding='utf-8-sig',newline='') as f:
  w=csv.writer(f);w.writerow(['컷','씬 제목','전체 시작(초)','전체 끝(초)','Flow 생성(초)','편집 사용(초)','시작 이미지 상태','동작','카메라','대사','이미지']);w.writerows(timeline)
-md=['# 동백꽃 — Flow AI 편집본 v1.1\n','사용자 수정 반영: 어머니는 전부 화면 밖 음성. 닭싸움에 어머니가 등장하지 않는다. 최초 시나리오 파일은 이력으로 보존한다. 현재 제작은 이 편집본과 data.js를 기준으로 한다.\n','10씬·35컷·총 240초. Flow의 8초 생성 기준으로 35개 영상(총 생성 280초)을 만들고 앞 4~8초를 사용하여 240초로 편집한다. 선택 모델의 지원 길이는 Flow에서 확인한다. 한국어 음성이 불명확하면 별도 음성으로 편집한다. 각 컷의 첫 프레임은 해당 컷 번호 PNG이며 후속 행동 이전의 자세다. 영상은 아직 생성하지 않았다.\n']
+md=['# 동백꽃 — Flow AI 편집본 v1.1\n','사용자 수정 반영: 어머니는 전부 화면 밖 음성. 닭싸움에 어머니가 등장하지 않는다. 최초 시나리오 파일은 이력으로 보존한다. 현재 제작은 이 편집본과 data.js를 기준으로 한다.\n','10씬·35컷·총 240초. Flow의 8초 생성 기준으로 35개 영상(총 생성 280초)을 만들고 앞 4~8초를 사용하여 240초로 편집한다. 선택 모델의 지원 길이는 Flow에서 확인한다. 한국어 음성이 불명확하면 별도 음성으로 편집한다. 각 컷의 첫 프레임은 해당 컷 번호 PNG이며 후속 행동 이전의 자세다. 등록 영상은 S01-01~S01-04의 4개이며 나머지 컷은 키 이미지 단계다.\n']
 for s in data['scenes']:
  md.append(f'\n## {s["id"]} {s["title"]} — {s["duration"]}초\n\n등장: {s["characters"]}\n')
  for c in s['clips']:

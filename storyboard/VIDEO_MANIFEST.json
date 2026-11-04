@@ -1,0 +1,58 @@
+{
+  "S01-01": {
+    "path": "videos/S01/S01-01.mp4",
+    "originalFileName": "1번.mp4",
+    "duration": 8.042667,
+    "videoDuration": 8.0,
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "videoCodec": "h264",
+    "hasAudio": true,
+    "sizeBytes": 7324132,
+    "sha256": "c5ebae66f5dcf0f5489f4f39284565d2dd8576ecabfda99a6c0e3cfa1adad440",
+    "status": "등록 · 검토 전"
+  },
+  "S01-02": {
+    "path": "videos/S01/S01-02.mp4",
+    "originalFileName": "2번.mp4",
+    "duration": 8.042667,
+    "videoDuration": 8.0,
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "videoCodec": "h264",
+    "hasAudio": true,
+    "sizeBytes": 6146915,
+    "sha256": "a11bda8ccef975bf823e2b032f215af0a6836872613975c9e0f1acba28882d47",
+    "status": "등록 · 검토 전"
+  },
+  "S01-03": {
+    "path": "videos/S01/S01-03.mp4",
+    "originalFileName": "3번.mp4",
+    "duration": 8.042667,
+    "videoDuration": 8.0,
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "videoCodec": "h264",
+    "hasAudio": true,
+    "sizeBytes": 3803642,
+    "sha256": "0b1bcdba16cf15ab3cdf509c3fa8fd26f8ee6276c76ba15ce073c468e3108943",
+    "status": "등록 · 검토 전"
+  },
+  "S01-04": {
+    "path": "videos/S01/S01-04.mp4",
+    "originalFileName": "4번.mp4",
+    "duration": 8.042667,
+    "videoDuration": 8.0,
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "videoCodec": "h264",
+    "hasAudio": true,
+    "sizeBytes": 4734344,
+    "sha256": "af35586f4c8bb379ac309d5380ef1d6ccac2be082ec62e3ebffebd2161ff4692",
+    "status": "등록 · 검토 전"
+  }
+}

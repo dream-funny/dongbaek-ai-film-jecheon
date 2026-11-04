@@ -1,31 +1,22 @@
 # dongbaek-ai-film-jecheon
 11/7 동백꽃 제천강의
 
-## 콘티 보기 · 다운로드
+## 영상이 들어간 콘티 앱
 
-### 키 이미지와 영상 프롬프트만 받기 — 10.48MB
+**[콘티 앱 ZIP 받기 — 28.8MB](https://github.com/dream-funny/dongbaek-ai-film-jecheon/blob/main/downloads/DONGBAEK_LIGHT_PACKAGE.zip)**
 
-**[keyframes-and-prompts.zip 파일 화면 열기](https://github.com/dream-funny/dongbaek-ai-film-jecheon/blob/main/downloads/keyframes-and-prompts.zip)**
+파일 페이지 오른쪽 위 **↓ Download raw file**을 누릅니다. ZIP을 **모두 압축 해제**하고 `DONGBAEK_STORYBOARD_LIGHT.html`을 엽니다. `videos` 폴더는 HTML 옆에 함께 보관하세요.
 
-파일 화면 오른쪽 위의 **↓ Download raw file(원본 파일 다운로드)**를 누르세요. 파일 미리보기가 지원되지 않는다는 안내가 나와도 다운로드할 수 있습니다.
+- 업로드한 `1번~4번.mp4`를 **S01-01~S01-04**에 연결했습니다. 원본 영상은 수정·재인코딩하지 않았습니다.
+- **영상 보기 / 키 이미지 보기**, 원본 MP4 저장, 원본 전체·편집 구간 재생을 지원합니다.
+- **이 씬 영상 이어보기**: 8+8+5+4초, S01을 총 25초로 미리 봅니다.
+- 전체 콘티 미리보기는 등록된 4컷을 영상으로, 나머지 31컷을 키 이미지로 표시합니다. 등록 여부와 검토 완료는 구분합니다.
 
-이 ZIP에는 **키 이미지 JPEG 35장 + 한글·영어 영상 프롬프트 + 컷별 편집표**만 들어 있습니다. HTML은 포함하지 않았습니다.
+**[이미지·영상 내장 HTML 한 파일 — 43.64MB](downloads/DONGBAEK_STORYBOARD_LIGHT.html)**도 제공합니다. 이 파일은 단독으로 복사해도 오프라인에서 영상이 재생됩니다.
 
+[다운로드 목록](downloads/README.md) · [등록 MP4 원본](storyboard/videos/S01) · [이미지·프롬프트·영상 목록](storyboard/GALLERY.md) · [사용 방법](storyboard/README.md)
 
-
-### 작은 ZIP으로 받기 — 권장
-
-**[콘티·이미지 35장·프롬프트 ZIP 다운로드 — 22.0MB](https://github.com/dream-funny/dongbaek-ai-film-jecheon/blob/main/downloads/DONGBAEK_LIGHT_PACKAGE.zip)**
-
-압축을 풀고 **`DONGBAEK_STORYBOARD_LIGHT.html`**을 더블클릭하세요. 이미지·프롬프트·복사 버튼이 모두 들어 있으며 설치가 필요하지 않습니다.
-
-- [다운로드 파일 목록과 고화질 원본 PNG](downloads/README.md): 원본은 씬별 약 7~11MB로 나눴습니다.
-- [이미지 35장·컷별 프롬프트를 GitHub에서 바로 보기](storyboard/GALLERY.md)
-- [실행·Flow 사용 방법](storyboard/README.md)
-
-비공개 저장소 접근 권한이 있는 GitHub 계정으로 로그인하세요. 파일 페이지가 열리면 **Download raw file / 원본 파일 다운로드**를 누르세요. GitHub 파일 화면은 소스 보기이며 HTML 콘티 실행 화면이 아닙니다.
-
-경량판은 이미지의 얼굴·구도·픽셀 크기를 바꾸지 않고 JPEG 압축만 적용했습니다. PNG 원본도 그대로 보관합니다.
+키 이미지와 프롬프트만 필요하면 **[전용 ZIP — 10.48MB](downloads/keyframes-and-prompts.zip)**을 받습니다. 비공개 저장소 접근 권한이 있는 GitHub 계정으로 로그인하세요.
 
 ## 제작 현황
 

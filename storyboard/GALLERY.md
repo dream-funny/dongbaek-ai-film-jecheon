@@ -1,6 +1,6 @@
 # 동백꽃 — 4분 콘티와 시작 이미지 35장
 
-10씬 · 35컷 · 최종 240초. 이미지는 최종 사용자 승인 전 시안입니다. 실제 영상은 아직 생성하지 않았습니다.
+10씬 · 35컷 · 최종 240초. 이미지는 최종 사용자 승인 전 시안입니다. S01-01~S01-04에는 업로드한 영상 4개가 등록되어 있습니다. 나머지 31컷은 키 이미지 단계입니다.
 
 [작은 콘티 ZIP 다운로드](https://github.com/dream-funny/dongbaek-ai-film-jecheon/raw/refs/heads/main/downloads/DONGBAEK_LIGHT_PACKAGE.zip) · [씬별 원본 PNG](../downloads/README.md) · [사용 방법](README.md) · [편집표](FLOW_EDIT_LIST.csv) · [현재 편집본](EDITED_SCREENPLAY.md)
 
@@ -23,6 +23,8 @@ EXT. 밭·울타리 — 봄, 낮
 ![S01-01 시작 이미지](assets/S01-01.png)
 
 [PNG 원본 열기](assets/S01-01.png)
+
+**[등록 MP4 보기·받기](videos/S01/S01-01.mp4)** · 원본 약 8초 / 편집 사용 8초 · 1번.mp4
 
 <details>
 <summary>한글 영상 프롬프트 펼치기</summary>
@@ -66,6 +68,8 @@ Generate 8 seconds. Use the FIRST 8 seconds in the edit. Finish the essential ac
 ![S01-02 시작 이미지](assets/S01-02.png)
 
 [PNG 원본 열기](assets/S01-02.png)
+
+**[등록 MP4 보기·받기](videos/S01/S01-02.mp4)** · 원본 약 8초 / 편집 사용 8초 · 2번.mp4
 
 <details>
 <summary>한글 영상 프롬프트 펼치기</summary>
@@ -112,6 +116,8 @@ White cotton waist apron cradles exactly three hot potatoes. Fingers hold cloth 
 
 [PNG 원본 열기](assets/S01-03.png)
 
+**[등록 MP4 보기·받기](videos/S01/S01-03.mp4)** · 원본 약 8초 / 편집 사용 5초 · 3번.mp4
+
 <details>
 <summary>한글 영상 프롬프트 펼치기</summary>
 
@@ -154,6 +160,8 @@ Generate 8 seconds. Use the FIRST 5 seconds in the edit. Finish the essential ac
 ![S01-04 시작 이미지](assets/S01-04.png)
 
 [PNG 원본 열기](assets/S01-04.png)
+
+**[등록 MP4 보기·받기](videos/S01/S01-04.mp4)** · 원본 약 8초 / 편집 사용 4초 · 4번.mp4
 
 <details>
 <summary>한글 영상 프롬프트 펼치기</summary>

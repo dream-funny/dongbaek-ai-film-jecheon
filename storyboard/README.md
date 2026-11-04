@@ -11,14 +11,29 @@
 - 인물은 사용자가 선택한 최초 얼굴·의상 기준을 참조합니다. 고름을 새로 디자인하지 않습니다.
 - 배경음악·영상 화면 자막·설명 내레이션 없음. 필요한 한국어 육성 대사·환경음·효과음만 사용합니다.
 
-## 열기
+## 동영상이 포함된 콘티 열기
 
-1. [작은 ZIP 다운로드](https://github.com/dream-funny/dongbaek-ai-film-jecheon/raw/refs/heads/main/downloads/DONGBAEK_LIGHT_PACKAGE.zip)를 누릅니다(약 22MB).
-2. 압축을 풀고 **DONGBAEK_STORYBOARD_LIGHT.html**을 브라우저로 엽니다. 이미지와 데이터가 내장되어 다른 파일을 옮기지 않아도 됩니다.
-3. images 폴더에는 Flow에 바로 첨부할 JPEG 35장이 있습니다. 원본 PNG가 필요하면 [씬별 ZIP](../downloads/README.md)을 받습니다.
-4. GitHub에서 다운로드 없이 내용만 보려면 [이미지·프롬프트 보기](GALLERY.md)를 엽니다.
+1. [영상 포함 앱 ZIP](../downloads/DONGBAEK_LIGHT_PACKAGE.zip)을 열고 **↓ Download raw file**로 내려받습니다.
+2. ZIP을 모두 압축 해제합니다.
+3. `DONGBAEK_STORYBOARD_LIGHT.html`을 엽니다. **videos 폴더를 HTML 옆에 함께 보관**합니다.
+4. 영상이 등록된 S01에서 컷을 선택하면 플레이어가 보입니다. **키 이미지 보기**로 원래 시작 이미지를 확인할 수 있습니다.
+5. 기본값은 **편집 구간만 재생**입니다. 해제하면 8초 원본 전체를 볼 수 있습니다.
+6. **이 씬 영상 이어보기**는 S01-01~04의 앞 8·8·5·4초를 사용해 총 25초를 재생합니다.
 
-경량 HTML의 **현재 이미지 PNG 저장**은 압축 미리보기를 PNG로 변환합니다. 원본 PNG와 바이트가 같지는 않으며, 무손실 원본은 씬별 ZIP입니다. 압축 과정에서 얼굴·구도·픽셀 크기는 변경하지 않습니다.
+파일 하나만 옮기려면 [영상 내장 HTML](../downloads/DONGBAEK_STORYBOARD_LIGHT.html)을 받으세요. 이 파일은 MP4까지 내장하여 다른 폴더 없이 오프라인으로 작동합니다.
+
+키 이미지 JPEG 35장과 영상 프롬프트는 별도의 [전용 ZIP](../downloads/keyframes-and-prompts.zip)에 있습니다. 경량 HTML의 PNG 저장은 이미지 미리보기를 PNG로 변환하며, 무손실 원본은 씬별 PNG ZIP입니다.
+
+## 등록한 영상
+
+|업로드 파일|연결 컷|원본 영상 트랙|편집 사용|규격|
+|---|---|---|---|---|
+|1번.mp4|S01-01|8초|0~8초|1280×720 / 24fps / 오디오 포함|
+|2번.mp4|S01-02|8초|0~8초|동일|
+|3번.mp4|S01-03|8초|0~5초|동일|
+|4번.mp4|S01-04|8초|0~4초|동일|
+
+원본 MP4의 오디오 꼬리를 포함한 파일 길이는 약 8.04초입니다. 영상 트랙은 8초이며 편집 구간은 위 표 기준입니다. 원본의 SHA-256·파일 크기·코덱은 `VIDEO_MANIFEST.json`에 기록했습니다. 파일을 등록했다고 검토 완료로 자동 처리하지 않습니다.
 
 ## Flow에서 영상 만들기
 
@@ -29,7 +44,7 @@
 5. 8초로 생성하고, 편집표에 적힌 앞 4~8초를 사용합니다. 영상 모델의 출력·대사 타이밍이 맞지 않으면 재생성하거나 편집합니다.
 6. `FLOW_EDIT_LIST.csv` 순서대로 이어 붙이면 240초입니다. 오프닝·엔딩 카드는 이 240초에 포함하지 않았습니다.
 
-HTML은 Flow에 자동 접속하거나 영상을 생성하지 않습니다. 시작 이미지와 프롬프트를 준비한 제작 도구입니다. 실제 영상 생성 성공이나 한국어 음성 정확도는 아직 검증하지 않았습니다.
+HTML은 Flow에 자동 접속하거나 영상을 생성하지 않습니다. 시작 이미지와 프롬프트를 준비한 제작 도구입니다. 등록 영상의 재생을 확인하되 대사·음향·인물 연속성의 최종 검토는 별도로 진행합니다.
 
 ## 다른 컴퓨터로 이동
 
@@ -51,4 +66,4 @@ HTML은 Flow에 자동 접속하거나 영상을 생성하지 않습니다. 시�
 
 `downloads/`에 경량 HTML·ZIP과 씬별 원본 PNG ZIP을 저장합니다. 모두 GitHub 파일당 제한 이내입니다. `exports/`의 이전 대용량 배포본은 기본 다운로드 경로에서 제외했습니다.
 
-재생성: `python3 tools/package_light_storyboard.py`(ImageMagick 필요). 경량판 검증: `python3 tools/check_light_storyboard.py`.
+재생성: `python3 tools/package_light_storyboard.py`(ImageMagick 필요). 경량판 검증: `python3 tools/check_light_storyboard.py`. 영상 재생 검증: `python3 tools/check_video_storyboard.py`. 등록 영상은 `VIDEO_MANIFEST.json`을 통해 데이터 재생성 시 유지됩니다.
