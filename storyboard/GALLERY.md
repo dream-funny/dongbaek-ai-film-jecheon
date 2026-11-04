@@ -2,7 +2,7 @@
 
 10씬 · 35컷 · 최종 240초. 이미지는 최종 사용자 승인 전 시안입니다. 실제 영상은 아직 생성하지 않았습니다.
 
-[전체 ZIP 다운로드](https://github.com/dream-funny/dongbaek-ai-film-jecheon/archive/refs/heads/main.zip) · [사용 방법](README.md) · [편집표](FLOW_EDIT_LIST.csv) · [현재 편집본](EDITED_SCREENPLAY.md)
+[작은 콘티 ZIP 다운로드](https://github.com/dream-funny/dongbaek-ai-film-jecheon/raw/refs/heads/main/downloads/DONGBAEK_LIGHT_PACKAGE.zip) · [씬별 원본 PNG](../downloads/README.md) · [사용 방법](README.md) · [편집표](FLOW_EDIT_LIST.csv) · [현재 편집본](EDITED_SCREENPLAY.md)
 
 비공개 저장소이므로 접근 권한이 있는 GitHub 계정으로 로그인하세요. ZIP 압축 해제 후 **storyboard/index.html**을 브라우저로 엽니다. 아래에서는 별도 다운로드 없이 이미지와 컷별 프롬프트를 볼 수 있습니다. 코드 블록 오른쪽 복사 버튼으로 프롬프트를 복사할 수 있습니다.
 

@@ -13,10 +13,12 @@
 
 ## 열기
 
-1. [GitHub 전체 ZIP](https://github.com/dream-funny/dongbaek-ai-film-jecheon/archive/refs/heads/main.zip)을 내려받아 압축을 풉니다(비공개 저장소 로그인 필요).
-2. 압축 해제한 프로젝트의 `storyboard/index.html`을 브라우저로 엽니다. `data.js`와 `assets` 폴더를 같은 위치에 보관합니다.
-3. GitHub에서 다운로드 없이 보려면 [이미지·프롬프트 보기](GALLERY.md)를 엽니다. 별도로 로컬 생성하는 `DONGBAEK_STORYBOARD_4MIN.html`은 이미지·데이터를 내장한 독립 HTML입니다. 이 파일 하나만 복사해도 됩니다.
-4. 브라우저가 로컬 파일을 제한하면 프로젝트 루트에서 `python3 -m http.server 8000 --directory storyboard`로 실행하고 브라우저에서 로컬 서버를 엽니다. 인터넷 서비스나 계정은 필요하지 않습니다.
+1. [작은 ZIP 다운로드](https://github.com/dream-funny/dongbaek-ai-film-jecheon/raw/refs/heads/main/downloads/DONGBAEK_LIGHT_PACKAGE.zip)를 누릅니다(약 22MB).
+2. 압축을 풀고 **DONGBAEK_STORYBOARD_LIGHT.html**을 브라우저로 엽니다. 이미지와 데이터가 내장되어 다른 파일을 옮기지 않아도 됩니다.
+3. images 폴더에는 Flow에 바로 첨부할 JPEG 35장이 있습니다. 원본 PNG가 필요하면 [씬별 ZIP](../downloads/README.md)을 받습니다.
+4. GitHub에서 다운로드 없이 내용만 보려면 [이미지·프롬프트 보기](GALLERY.md)를 엽니다.
+
+경량 HTML의 **현재 이미지 PNG 저장**은 압축 미리보기를 PNG로 변환합니다. 원본 PNG와 바이트가 같지는 않으며, 무손실 원본은 씬별 ZIP입니다. 압축 과정에서 얼굴·구도·픽셀 크기는 변경하지 않습니다.
 
 ## Flow에서 영상 만들기
 
@@ -47,4 +49,6 @@ HTML은 Flow에 자동 접속하거나 영상을 생성하지 않습니다. 시�
 
 ## 배포 파일과 Git 기록
 
-독립 HTML과 ZIP은 이미지 중복을 포함해 커지므로 `exports/`에 생성하고 Git에서 제외합니다. Git에는 원본 HTML·데이터·컷별 PNG·프롬프트·재생성 스크립트를 저장할 수 있습니다. 배포 파일은 `python3 tools/package_storyboard.py`로 다시 만듭니다. 얼굴 수정 시안은 최종 사용자 승인을 가정하지 않습니다.
+`downloads/`에 경량 HTML·ZIP과 씬별 원본 PNG ZIP을 저장합니다. 모두 GitHub 파일당 제한 이내입니다. `exports/`의 이전 대용량 배포본은 기본 다운로드 경로에서 제외했습니다.
+
+재생성: `python3 tools/package_light_storyboard.py`(ImageMagick 필요). 경량판 검증: `python3 tools/check_light_storyboard.py`.

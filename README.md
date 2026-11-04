@@ -3,16 +3,19 @@
 
 ## 콘티 보기 · 다운로드
 
-- **[이미지 35장·컷별 영상 프롬프트 바로 보기](storyboard/GALLERY.md)**
-- **[전체 프로젝트 ZIP 다운로드](https://github.com/dream-funny/dongbaek-ai-film-jecheon/archive/refs/heads/main.zip)**
+### 작은 ZIP으로 받기 — 권장
+
+**[콘티·이미지 35장·프롬프트 ZIP 다운로드 — 22.0MB](https://github.com/dream-funny/dongbaek-ai-film-jecheon/raw/refs/heads/main/downloads/DONGBAEK_LIGHT_PACKAGE.zip)**
+
+압축을 풀고 **`DONGBAEK_STORYBOARD_LIGHT.html`**을 더블클릭하세요. 이미지·프롬프트·복사 버튼이 모두 들어 있으며 설치가 필요하지 않습니다.
+
+- [다운로드 파일 목록과 고화질 원본 PNG](downloads/README.md): 원본은 씬별 약 7~11MB로 나눴습니다.
+- [이미지 35장·컷별 프롬프트를 GitHub에서 바로 보기](storyboard/GALLERY.md)
 - [실행·Flow 사용 방법](storyboard/README.md)
 
-비공개 저장소 접근 권한이 있는 GitHub 계정으로 로그인하세요. **Code → Download ZIP**도 같은 방법입니다.
+비공개 저장소 접근 권한이 있는 GitHub 계정으로 로그인하세요. 파일 페이지가 열리면 **Download raw file / 원본 파일 다운로드**를 누르세요. GitHub 파일 화면은 소스 보기이며 HTML 콘티 실행 화면이 아닙니다.
 
-압축을 푼 다음 `dongbaek-ai-film-jecheon-main/storyboard/index.html`을 브라우저로 열면 이미지 35장과 한글·영어 복사 버튼이 동작합니다. `data.js`와 `assets` 폴더를 함께 보관하세요. 별도 설치나 외부 서비스는 필요하지 않습니다.
-
-GitHub의 HTML 파일 화면은 소스 보기입니다. 인터랙티브 콘티는 ZIP을 내려받아 실행하며, 내려받기 전에는 위 **이미지·프롬프트 바로 보기**에서 내용을 확인하세요.
-
+경량판은 이미지의 얼굴·구도·픽셀 크기를 바꾸지 않고 JPEG 압축만 적용했습니다. PNG 원본도 그대로 보관합니다.
 
 ## 제작 현황
 
@@ -58,4 +61,4 @@ GitHub의 HTML 파일 화면은 소스 보기입니다. 인터랙티브 콘티�
 
 [현재 편집본](storyboard/EDITED_SCREENPLAY.md) · [영상 프롬프트](storyboard/VIDEO_PROMPTS.md) · [35컷 편집표](storyboard/FLOW_EDIT_LIST.csv)
 
-이전 시나리오와 엑셀은 이전 버전의 이력입니다. 현재 제작은 위 Flow 편집본을 기준으로 합니다. 단일 내장 HTML(약 140MiB)과 제작 ZIP(약 102MiB)은 GitHub 파일 제한을 초과하므로 `exports/`에 로컬 배포본으로 보관하며 Git에는 포함하지 않습니다. 필요한 경우 `python3 tools/package_storyboard.py`로 다시 만듭니다.
+이전 시나리오와 엑셀은 이전 버전의 이력입니다. 현재 제작은 위 Flow 편집본을 기준으로 합니다. 기존 대용량 배포본 대신 `downloads/`의 경량 ZIP을 사용하세요. 제작 원본은 `storyboard/assets/`와 씬별 PNG ZIP에 보관합니다.

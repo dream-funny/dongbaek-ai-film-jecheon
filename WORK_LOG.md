@@ -104,3 +104,13 @@
 - GitHub에서 다운로드 없이 이미지 35장과 한영 프롬프트를 보는 storyboard/GALLERY.md 추가.
 - README 상단에 갤러리·전체 ZIP 링크와 압축 해제 후 storyboard/index.html 실행 절차 추가.
 - 원격 main 시작 커밋 afd53af 확인. 실제 커밋·푸시 결과는 Git 기록 및 대화 완료 보고로 확인.
+
+## 2026-11-04 — GitHub에서 바로 받는 경량 배포본
+
+- 사용자가 최신 커밋 3aeb033을 웹에서 확인함. 계정·브랜치 문제가 아닌 기존 대용량 배포본 제외 안내와 다운로드 경로를 개선.
+- 사용자 용량 피드백에 따라 원본 PNG는 유지하고 ImageMagick JPEG 인코딩만 적용(픽셀 크기 유지, 원본 SHA 불변 확인). 얼굴·구도 재생성 없음.
+- downloads/DONGBAEK_STORYBOARD_LIGHT.html 15.59MiB, 경량 제작 ZIP 22.0MiB, 씬별 원본 PNG ZIP 10개(6.73~11.02MiB) 작성. GitHub에 실제 파일을 포함하도록 구성.
+- 브라우저의 MIME 처리와 JPEG 미리보기→실제 PNG 저장 구현. 무손실 원본은 씬별 ZIP으로 구분.
+- Chromium 검증: 경량 HTML을 열고 네트워크를 끊은 상태에서 이미지 35장·한영 복사·실제 PNG 저장·원본과 동일 픽셀 크기·모바일 가로 넘침 없음 확인.
+- README 기본 다운로드를 22MB 경량 ZIP으로 교체. 대용량 안내 대신 클릭·압축 해제·HTML 열기 절차 제공.
+- 이전에 승인된 GitHub 업로드·다운로드 제공 작업의 후속 수정으로 커밋·푸시 진행.
