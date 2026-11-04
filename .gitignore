@@ -1,0 +1,4 @@
+
+# Large generated delivery copies; source HTML, PNGs and builders are versioned.
+/exports/
+__pycache__/

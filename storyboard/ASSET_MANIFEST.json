@@ -1,0 +1,492 @@
+[
+  {
+    "id": "S01-01",
+    "file": "assets/S01-01.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "01c3dc0e7032a5c685418aa90f851c1514f70c7afde08f965a7c3c7a327ec60c",
+    "start": "밭일 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-abb1ebb2-3f6f-4bf8-be86-ca5e4aa004f2.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S01-02",
+    "file": "assets/S01-02.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "96f444cff430f9959a99e5b1f6b54846b1d098db2a6c899f6dc4057734ff5708",
+    "start": "감자를 내밀기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-82b9ae89-4ee2-4f1d-87dd-363ec9dd3355.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S01-03",
+    "file": "assets/S01-03.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "2613cce2ba4e19991a2fa5d148beab69a1c65b47bf691ada298bda7c8fc09e28",
+    "start": "거절 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 5,
+    "source": "/workspace/generated_images/exec-7ef04fe5-3f59-4889-bd01-e5546e5fb511.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S01-04",
+    "file": "assets/S01-04.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "7ad3d7ef8b48f2a39daa4b393903dbe907499cb7b55c31736e6681a2f867d6f4",
+    "start": "손을 거두기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 4,
+    "source": "/workspace/generated_images/exec-24fb728b-4ffc-409b-8b7e-ff51d0309c63.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S02-01",
+    "file": "assets/S02-01.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "b7625ecc05e11b3b36aa4a4e1394421f579c828d3bebbcdd81c68d08a4b3febe",
+    "start": "수탉을 내려놓기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-591b71e6-7377-4684-8ed8-7e1445c53560.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S02-02",
+    "file": "assets/S02-02.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "806fbed6d7442571f1027d7adbf02977ccad5e0ca7446ed759826a4942c3ce47",
+    "start": "닭을 떼어놓기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-eba8db3e-5f19-4710-b11a-3851b6ef2544.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S02-03",
+    "file": "assets/S02-03.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "caa62671353688716ed31bcd74608ae0ef5d97fcbdb273e86a858d567acca203",
+    "start": "점순이가 대꾸하기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 4,
+    "source": "/workspace/generated_images/exec-8d5349ce-ec1c-4fc3-9f74-109be41d3fe0.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S03-01",
+    "file": "assets/S03-01.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "9868dbf29e71cb49d16c913609e56cfea95b72db670a24345bf7c8f1a0cda4a1",
+    "start": "엄마에게 말하기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-0e266cd8-462e-4c89-b24b-a40a3da980f6.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S03-02",
+    "file": "assets/S03-02.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "26ee51014f342b70d8aea8b0d33cc8e97fe588e670b71c2e9581f2408ed2407d",
+    "start": "엄마의 경고를 듣기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-61201852-57e6-4328-8622-33145df3a37e.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S03-03",
+    "file": "assets/S03-03.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "5ee726d83986c0a9eb54642e0cfb9ba1f140041f0f326ce7013bb95cfdea34c0",
+    "start": "입을 다물기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 4,
+    "source": "/workspace/generated_images/exec-2a6a458c-650e-42db-b4d1-cd00b4fed35c.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S04-01",
+    "file": "assets/S04-01.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "a94415c1a91d64923055f7c2448f26cd4ee0e00c980902b77d6acfaa28a5376a",
+    "start": "종지를 놓기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-5cd6e14b-8e61-4569-b6d7-cac63552772e.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S04-02",
+    "file": "assets/S04-02.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "ba73a49799c38a2cba1dec9b337d1ccfa2323910dd3cfce2622dad278d55767c",
+    "start": "고추장을 내밀기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-06b1e918-5dfa-4378-9863-b38f0ed5b1c4.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S04-03",
+    "file": "assets/S04-03.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "86242fc9f703051c33c6411f2e2847709adcaa3d81c66c24d240d72f04ae259c",
+    "start": "닭이 물러서기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 4,
+    "source": "/workspace/generated_images/exec-4f6d80ed-ba76-47a1-befd-ea6dad080228.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S05-01",
+    "file": "assets/S05-01.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "dd5eb639f3a0eaa9b38927139da29d5eb21d8538014d1f15c509e5b48fba7152",
+    "start": "두 닭이 대치하기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-76c00cab-e944-4896-b461-825c89dd0170.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S05-02",
+    "file": "assets/S05-02.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "10d7e0ffae03fc30f1411f3b5b5e6fb01be44414816a55dee0b67fa6b6c7c367",
+    "start": "나가 몸을 낮추기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-8967d907-66db-4256-8ba6-d4cea857fe6c.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S05-03",
+    "file": "assets/S05-03.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "8590906720b5adebac308ac7646d0bd6624305a77527791332b0a134a11f0ce3",
+    "start": "점순이가 웃기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 5,
+    "source": "/workspace/generated_images/exec-e4d5e0aa-0391-4772-9382-61f0217af813.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S05-04",
+    "file": "assets/S05-04.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "995a274e67ee01f332c65c189fa16fb4f8432c7b82e3a052dcd1e91998ab4781",
+    "start": "나가 올려다보기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 4,
+    "source": "/workspace/generated_images/exec-b6f559e5-9b9a-486e-9bf8-12acb36495fd.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S06-01",
+    "file": "assets/S06-01.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "a7faabbec9b737fa25e1975e20dd4ceadf83f1e2da2fc12f533cb1057177eeae",
+    "start": "땔감을 얹기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-ce8e5d8c-90ed-4900-bc11-98c9b4c7a4ef.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S06-02",
+    "file": "assets/S06-02.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "cf571fb0649bbbe77997cb328a17ffe215b91242a16b2ec4d08c9064243db0d2",
+    "start": "소리를 듣기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-723ac498-516d-4972-8aa9-3e96664b7a7f.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S06-03",
+    "file": "assets/S06-03.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "7abf902a3fc278ead0130238e958fffa50a4b0714a5cec1c685066f3887ba7d5",
+    "start": "달려가기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 4,
+    "source": "/workspace/generated_images/exec-5f58c89b-acc4-4e8c-8762-dc259ca0d5bc.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S07-01",
+    "file": "assets/S07-01.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "2b8c3f90f9440339310003698f870cb9af821288a8cf0c0e249fac2c1a78b868",
+    "start": "호드기를 떼기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-7fadfb81-cbcd-4afc-93e0-5e7ff62544ad.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S07-02",
+    "file": "assets/S07-02.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "bde2029202a4bda2e4a21fa578d807247af9a953174e977ddb5aa1da00697513",
+    "start": "빈터로 들어오기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-425dabd6-3083-44ba-a547-b7529aabacc8.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S07-03",
+    "file": "assets/S07-03.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "9250763407db649dbbb08a8ae45e9ce4cdf560ba238537b1d4b973cec04905a9",
+    "start": "호드기를 내려놓기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-a8cfc173-f5ab-46a5-8252-57d18366e7fb.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S07-04",
+    "file": "assets/S07-04.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "31d28afe043e5b7c5f97b9177cade260d38473ad012d36c00375d2c792005ed4",
+    "start": "가지를 집기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 6,
+    "source": "/workspace/generated_images/exec-65708232-6b1c-49e0-b7dc-1255ecdd76bb.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S08-01",
+    "file": "assets/S08-01.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "191eb99c7e70be508d56c221334e8f74901d2e8d726525bd1c1853b14855054d",
+    "start": "가지를 휘두르기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-2e327518-84aa-4d85-807b-d18f3677c02f.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S08-02",
+    "file": "assets/S08-02.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "b9de1994043117c9d1d2834015750762c6eaf6217bb77e3e94a2a9bfca6f602d",
+    "start": "타격음을 듣기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-21039948-e213-40dd-9fec-0b00e7c4beb3.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S08-03",
+    "file": "assets/S08-03.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "6732c7165205fd45b578fd602973e377d7e8b6aa7286cba82a460b8c0d7e23b9",
+    "start": "가지를 놓치기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 4,
+    "source": "/workspace/generated_images/exec-ed1a489f-0cdd-4a28-9269-01979a9fe4d3.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S09-01",
+    "file": "assets/S09-01.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "260e42147cf4de149c792293d781d632614f7651c54883f2e4240ea124792b20",
+    "start": "눈물이 흐르기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-d9453539-befd-4527-ab85-e3b23de38260.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S09-02",
+    "file": "assets/S09-02.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "7a2e8beabe87cd25bd1fb5e3e24df9f823a2ddfde75d1107060a263012aa70c8",
+    "start": "소매로 눈을 닦기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-f771e987-2aca-4fca-812b-c88b735ed29f.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S09-03",
+    "file": "assets/S09-03.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "bf5286e38539d6e32917885111ed3220504beb8980f5eca46ce3d8797eb261f3",
+    "start": "고개를 끄덕이기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-3fd48296-c000-4801-ba51-dd7bd7675f3c.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S09-04",
+    "file": "assets/S09-04.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "f0e4c6e1da883dc7ebecbe11e616c6c32a3042d16db47b331b81d8ecc8a62d15",
+    "start": "약속하기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 6,
+    "source": "/workspace/generated_images/exec-f1d67dad-e281-4f21-93f7-2476efc36afe.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S10-01",
+    "file": "assets/S10-01.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "38bdb5094489056146b322091d08456a76eaf4cc3cc21d3be8bfed24a81b9e45",
+    "start": "어깨를 밀기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-5873f066-0360-4103-8492-13332ee39f77.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S10-02",
+    "file": "assets/S10-02.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "c0cdf7cfbda99e509caafe2b1f08f00f05145905f0b226b95da811beed073643",
+    "start": "꽃밭에 넘어지기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-0975b2e4-737b-4179-b9d0-4e85015721cf.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S10-03",
+    "file": "assets/S10-03.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "00f808e3df64e8ed36886a84bd960605e332813716bf638102dd1da9ec127c7d",
+    "start": "엄마의 부름을 듣기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 8,
+    "source": "/workspace/generated_images/exec-b861652d-084e-4cc8-80c5-82181962ebe1.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  },
+  {
+    "id": "S10-04",
+    "file": "assets/S10-04.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "05658aebfce108c1972255808752a9946cbc7f7c41d07dfa47339cc7e2138576",
+    "start": "소매의 꽃을 집기 직전",
+    "generatedSeconds": 8,
+    "editSeconds": 6,
+    "source": "/workspace/generated_images/exec-d4a3f658-1d2f-44a3-9e28-3fc8a8efcb3a.png",
+    "review": "사용자 최종 승인 전 제작 시안"
+  }
+]
