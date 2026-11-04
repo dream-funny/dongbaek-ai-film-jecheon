@@ -1,5 +1,9 @@
 # 동백꽃 — 소용량 다운로드
 
+**[키 이미지 35장 + 영상 프롬프트만 받기 — 10.44MB](keyframes-and-prompts.zip)**
+
+위 파일을 열고 오른쪽 위 **↓ Download raw file**을 누르세요.
+
 비공개 저장소에 접근 가능한 GitHub 계정으로 로그인하세요. 파일을 열고 **Download raw file / 원본 파일 다운로드**를 누르면 됩니다.
 
 1. **[콘티 + 이미지 35장 + 프롬프트 ZIP — 22.0MB](DONGBAEK_LIGHT_PACKAGE.zip)**: 압축 해제 후 HTML을 엽니다. 이미지 JPEG도 별도로 들어 있습니다.

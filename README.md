@@ -3,9 +3,19 @@
 
 ## 콘티 보기 · 다운로드
 
+### 키 이미지와 영상 프롬프트만 받기 — 10.44MB
+
+**[keyframes-and-prompts.zip 파일 화면 열기](https://github.com/dream-funny/dongbaek-ai-film-jecheon/blob/main/downloads/keyframes-and-prompts.zip)**
+
+파일 화면 오른쪽 위의 **↓ Download raw file(원본 파일 다운로드)**를 누르세요. 파일 미리보기가 지원되지 않는다는 안내가 나와도 다운로드할 수 있습니다.
+
+이 ZIP에는 **키 이미지 JPEG 35장 + 한글·영어 영상 프롬프트 + 컷별 편집표**만 들어 있습니다. HTML은 포함하지 않았습니다.
+
+
+
 ### 작은 ZIP으로 받기 — 권장
 
-**[콘티·이미지 35장·프롬프트 ZIP 다운로드 — 22.0MB](https://github.com/dream-funny/dongbaek-ai-film-jecheon/raw/refs/heads/main/downloads/DONGBAEK_LIGHT_PACKAGE.zip)**
+**[콘티·이미지 35장·프롬프트 ZIP 다운로드 — 22.0MB](https://github.com/dream-funny/dongbaek-ai-film-jecheon/blob/main/downloads/DONGBAEK_LIGHT_PACKAGE.zip)**
 
 압축을 풀고 **`DONGBAEK_STORYBOARD_LIGHT.html`**을 더블클릭하세요. 이미지·프롬프트·복사 버튼이 모두 들어 있으며 설치가 필요하지 않습니다.
 
