@@ -4,6 +4,7 @@ import runpy,json,csv
 ROOT=Path(__file__).resolve().parent.parent
 runpy.run_path(str(ROOT/'tools/build_storyboard.py'))
 p=ROOT/'storyboard';data=json.loads((p/'storyboard.json').read_text())
+override_path=p/'CLIP_OVERRIDES.json';overrides=json.loads(override_path.read_text()) if override_path.exists() else {}
 groups=[[[0],[1],[2,3],[4]],[[0],[1,2],[3]],[[0],[1],[3]],[[0,1],[2],[3]],[[0,1],[2],[3],[4]],[[0],[1,2],[3]],[[0,1],[2],[3,4],[5]],[[0],[1],[3]],[[0,1],[2,3],[4],[5]],[[0,1],[2,3],[4],[5]]]
 durations=[[8,8,5,4],[8,8,4],[8,8,4],[8,8,4],[8,8,5,4],[8,8,4],[8,8,8,6],[8,8,4],[8,8,8,6],[8,8,8,6]]
 starts=[
@@ -54,10 +55,12 @@ for i,s in enumerate(data['scenes']):
   if i==0 and j in [1,3]:promptko+='\n흰 무명 허리 앞치마로 감자 세 알을 감싼다. 손은 앞치마 천만 잡는다. 맨손으로 뜨거운 감자를 잡지 않는다.';prompten+='\nWhite cotton waist apron cradles exactly three hot potatoes. Fingers hold cloth edges only, never the potatoes.'
   if i==3:promptko+='\n화면 등장: 나와 작은 수탉만. 점순이·어머니·다른 인물·지게·호드기 없음.';prompten+='\nOnly boy and small rooster visible, plus one bowl. NO Jeomsun, mother, other human, jige or whistle.'
   c={'id':cid,'duration':dur,'generatedDuration':8,'start':local,'globalStart':globaltime,'globalEnd':globaltime+dur,'startTitle':start[0],'startDescription':start[1],'image':f'assets/{cid}.png','actionKo':ko,'actionEn':en,'cameraKo':camko,'cameraEn':camen,'dialogue':dialogue,'soundKo':sndko,'soundEn':snden,'ko':promptko,'en':prompten,'imageKo':keyko,'imageEn':imageprompt}
+  if cid in overrides:
+   c.update(overrides[cid]);ko=c['actionKo'];en=c['actionEn'];camko=c['cameraKo'];imageprompt=c['imageEn'];start=(c['startTitle'],c['startDescription'])
   new.append(c);key_specs.append({'id':cid,'prompt':imageprompt});timeline.append([cid,s['title'],globaltime,globaltime+dur,8,dur,start[0],ko,camko,dialogue,c['image']]);local+=dur;globaltime+=dur
  s['clips']=new;s['image']=new[0]['image'];s['imageType']='컷별 시작 키프레임 · Flow 8초 생성'
  if i==0:
-  s['action']=s['action'].replace('점순이가 치마폭에서 김이 나는 감자 세 알을 꺼낸다.', '점순이가 흰색 무명 앞치마 아랫단으로 감자 세 알을 감싼다.').replace('점순이가 감자를 내민다.', '점순이가 앞치마 천에 받친 감자를 내민다.').replace('점순이가 내민 손을 거둔다.', '점순이가 감자가 담긴 앞치마 천을 거둔다.');s['continuity']+=' / 흰 무명 앞치마, 천 안 감자 정확히 3알, 손은 천만 잡음';s['props']+='; 흰 무명 허리 앞치마'
+  s['action']=s['action'].replace('점순이가 치마폭에서 김이 나는 감자 세 알을 꺼낸다.', '점순이가 흰색 무명 앞치마 아랫단으로 감자 세 알을 감싼다.').replace('점순이가 감자를 내민다.', '점순이가 앞치마 천에 받친 감자를 내민다.').replace('점순이가 내민 손을 거둔다.', '점순이가 감자가 담긴 앞치마 천을 거둔다.');s['continuity']+=' / 흰 무명 앞치마, 천 안 감자 정확히 3알, 손은 천만 잡음';s['props']+='; 흰 무명 허리 앞치마';s['action']=s['action'].replace('점순이가 감자가 담긴 앞치마 천을 거둔다.', '점순이의 미소가 멎는다. / 점순이가 입술을 다문다. / 점순이가 앞치마를 몸 쪽으로 당긴다. / 점순이가 소년을 날카롭게 쏘아본다.');s['notes']+=' / S01-04: 거절의 무안함이 분노로 바뀌어 다음 닭싸움의 감정적 원인이 됨.'
  if i==2:
   s['characters']='나 C01 / 어머니 C03(화면 밖 목소리만)';s['action']='나가 작은 수탉을 품에 안는다. / 나가 화면 밖 어머니에게 말한다. / 나가 이웃집을 가리키려다 경고를 듣고 손을 내린다. / 나가 입을 다문다.';s['dialogue']='나: 점순이가 또 싸움 붙였어. / 어머니(화면 밖): 그 집은 마름이야. 밉보이면 밭도 못 부쳐.';s['notes']='화면에는 나만 등장. 어머니 신체·손·실루엣 없음.'
  assert local==s['duration']

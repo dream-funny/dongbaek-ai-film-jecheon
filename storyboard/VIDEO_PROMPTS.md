@@ -128,41 +128,71 @@ ONE single WIDE 16:9 live-action photorealistic START FRAME of an 8-second film 
 
 ### S01-04 · 21–25초 · 생성8초/편집4초
 
-시작: 손을 거두기 직전
+시작: 거절 직후 — 무안함이 분노로 바뀌기 직전
 
 ![시작 키프레임](assets/S01-04.png)
 
 #### 영상 한글
 ```text
-S01-04 | Flow AI | 생성 8초 / 편집 4초
-1930년대 강원 농촌, 이른 봄. 16:9 시네마틱 실사, 자연광, 흙빛 색감.
-시작 상태: 손을 거두기 직전 — 첨부 키 이미지와 동일한 상태.
-행동: 점순이가 감자 세 알이 담긴 앞치마 주머니를 몸 쪽으로 거둔다. 감자는 끝까지 천으로 받친다.
-카메라: 손에서 얼굴로 느린 틸트. 시작 이미지와 같은 앵글, 한 번의 연속 숏, 임의 컷 전환 없음.
-대사 없음.
-환경음·효과음: 옷자락, 짧은 바람.
-첫 프레임은 첨부한 S01-04.png 그대로 시작한다. 최초 선택 인물의 얼굴·머리·의상·고름·체형과 소품·광선을 유지한다. 화면에 어머니나 제3인물, 추가 손을 만들지 않는다. 어머니는 S03과 S10에서만 화면 밖 음성이다. 배경음악·설명 내레이션·화면 글자·자막·캡션·워터마크 없음. 동물 타격 접촉·상처·피 없음.
-생성 길이 8초. 편집본에는 앞 4초를 사용한다. 핵심 동작과 대사는 4초 안에 끝내고 남은 시간은 종료 자세를 자연스럽게 유지한다.
-흰 무명 허리 앞치마로 감자 세 알을 감싼다. 손은 앞치마 천만 잡는다. 맨손으로 뜨거운 감자를 잡지 않는다.
+S01-04 — 감자를 거절당한 점순이의 무안함과 분노
+생성 8초 / 편집 4초.
+
+첨부한 S01-04.png를 정확한 첫 프레임으로 사용한다.
+바로 앞 장면에서 소년이 감자를 거절했다.
+카메라는 소년의 시점이다. 화면에는 점순이만 보인다.
+
+0~1초: 점순이의 남아 있던 미소가 뚝 멎는다. 소년을 바라보던 눈이 잠시 멈춘다.
+1~2초: 시선을 아래로 떨군다. 입술을 꾹 다문다. 앞치마 가장자리를 쥔 손에 힘이 들어간다.
+2~3초: 감자 세 알이 담긴 앞치마를 몸 쪽으로 당긴다. 눈썹 안쪽이 살짝 모인다.
+3~4초: 고개를 조금 들고 소년을 날카롭게 쏘아본다. 입술은 굳게 다물려 있다. 무안함이 화로 바뀐 표정이 분명하게 보인다.
+4~8초: 소년을 쏘아보는 시선과 화난 표정을 유지한다. 다시 웃거나 부드러운 표정으로 돌아가지 않는다.
+
+원본 얼굴형·눈·코·입·피부·머리·의상·고름·체형을 유지한다.
+같은 얼굴에서 표정과 눈빛만 자연스럽게 변한다. 다른 인물처럼 얼굴형을 바꾸거나 나이를 더하지 않는다.
+감자는 끝까지 흰 무명 앞치마 천으로 받친다. 손은 천 가장자리만 잡는다.
+감자를 다시 권하거나 건네거나 던지지 않는다.
+소년·어머니·다른 인물·동물을 화면에 추가하지 않는다.
+
+처음부터 얼굴과 앞치마가 함께 보이는 눈높이 미디엄 클로즈업, 50mm, 고정 카메라.
+줌·틸트·컷 전환 없음.
+소리: 앞치마 천이 당겨지는 소리, 짧은 숨, 약한 바람.
+대사·배경음악·내레이션·자막·화면 글자 없음.
+1930년대 강원 농촌의 이른 봄, 16:9 시네마틱 실사.
+첫 4초 안에 무안함에서 분노로 바뀌는 핵심 반응을 끝내고, 편집에는 앞 4초를 사용한다.
 ```
 
 #### Video English
 ```text
-S01-04 | Flow AI | Generate 8s / Edit 4s
-Early spring, 1930s rural Gangwon Korea. 16:9 cinematic live action, natural light, earthy palette.
-START STATE: Jeomsun medium closeup, wearing a plain WHITE COTTON WAIST APRON, its lower hem lifted as a cloth pouch holding EXACTLY THREE steaming potatoes, fingers gripping ONLY outer cloth edges. Apron pouch still extended frame left, eyes lowered, BEFORE withdrawing it. No bare hand touches potatoes. Boy outside crop. Same fence. Noon.
-ACTION: Jeomsun draws the white apron-cloth pouch with all three potatoes back toward herself. Cloth supports the potatoes throughout.
-CAMERA: Slow tilt from hands to face; maintain start-frame angle, one continuous shot, no spontaneous cuts.
-No dialogue.
-Diegetic sounds: Cloth, brief breeze.
-Start exactly from the attached S01-04.png. Preserve original approved identities, hair, clothing, goreum, body builds, props and light. NO mother or third human or extra hands appears. Mothers are offscreen voices only in S03 and S10. No music, narration, on-screen text, subtitles, captions or watermark; no animal impact, wounds or blood.
-Generate 8 seconds. Use the FIRST 4 seconds in the edit. Finish the essential action and dialogue within 4 seconds, then hold the final posture naturally.
-White cotton waist apron cradles exactly three hot potatoes. Fingers hold cloth edges only, never the potatoes.
+S01-04 — Jeomsun's embarrassment turns into anger after rejection.
+Generate 8 seconds / Use the first 4 seconds.
+
+Use the attached S01-04.png as the exact first frame.
+The boy has just refused her potatoes in the preceding shot.
+The camera is the boy's point of view. Only Jeomsun is visible.
+
+0–1s: Her remaining smile abruptly stops. Her eyes momentarily hold on the boy.
+1–2s: She drops her gaze, presses her lips firmly together and tightens her grip on the apron edges.
+2–3s: She draws the apron pouch with exactly three potatoes against her body. Her inner brows draw slightly together.
+3–4s: She lifts her head a little and gives the boy a sharp, angry look. Her lips stay firmly closed. The shift from embarrassment to anger must be clearly readable.
+4–8s: Hold her angry gaze and firm expression. Do not return to smiling or a soft expression.
+
+Preserve the original facial structure, eyes, nose, mouth, skin, hair, clothes, goreum and body.
+Allow natural expression changes on the SAME face; do not replace her identity or age her.
+The white cotton apron supports all three potatoes throughout. Fingers grip cloth edges only.
+Do not offer, hand over or throw potatoes.
+No boy, mother, other person or animal enters the image.
+
+Eye-level medium close-up, 50mm, locked-off camera, face and apron visible from the first frame.
+No zoom, tilt or cuts.
+Diegetic sound only: apron cloth pulling, a short breath, soft breeze.
+No dialogue, music, narration, subtitles, captions or on-screen text.
+Early spring, 1930s rural Gangwon Korea, 16:9 cinematic live action.
+Finish the essential embarrassment-to-anger reaction within the first 4 seconds; use those 4 seconds in the edit.
 ```
 
 #### 시작 이미지 프롬프트
 ```text
-ONE single WIDE 16:9 live-action photorealistic START FRAME of an 8-second film clip. Early spring, 1930s rural Gangwon Korea, muted earth colors, unretouched skin, natural soft light, subtle film grain. Identity reference contains ONLY boy on left and girl on right: faithfully preserve their faces, bodies, original hair, original clothing and original goreum knots. Boy: short untidy black hair, faded ivory jeogori, grey-brown baji, straw sandals. Girl: round face, one black braid with dark ribbon, muted ochre jeogori, dark plum chima, black rubber shoes. Use location and prop boards only for environment/object appearance, never their layout. CRITICAL: NO MOTHER, NO ADULT WOMAN, NO THIRD HUMAN, NO bystander, NO extra hands, NO silhouette. Include only explicitly requested characters; if an isolated closeup, no other face. Image is the instant BEFORE the named action, not mid-action or its ending. No collage, no panels, no text, no captions, no logo, no modern objects, no costume redesign, no animal impact/blood/wounds. Spicebush flowers yellow, not red camellia. Hodeugi is a short straight bark tube, not a smoking pipe. START COMPOSITION: Jeomsun medium closeup, wearing a plain WHITE COTTON WAIST APRON, its lower hem lifted as a cloth pouch holding EXACTLY THREE steaming potatoes, fingers gripping ONLY outer cloth edges. Apron pouch still extended frame left, eyes lowered, BEFORE withdrawing it. No bare hand touches potatoes. Boy outside crop. Same fence. Noon.
+OUTPAINT THE MOST RECENT USER-UPLOADED REFERENCE PORTRAIT ONLY into a wide 16:9 cinematic first frame. Do NOT use any earlier generated alternate girl. This task is background/canvas extension, NOT a new portrait or face redesign. Keep the reference girl's face, expression, original small closed-mouth smile, exact face silhouette, full cheeks, softly rounded jaw, eye shape and spacing, original eyelids and eyebrows, nose shape, lips, skin texture, hairline, center-parted braided black hair and dark ribbon exactly as in the uploaded reference. Keep the ORIGINAL HEAD ANGLE and ORIGINAL EYE DIRECTION. DO NOT alter her expression, rotate the head, age her, slim her face, sharpen jaw, enlarge eyes, or add wrinkles, freckles, frown or new facial detail. Preserve her original worn ochre jacket and its knot arrangement, plum skirt and white waist apron exactly as shown. Preserve the source portrait as the central photographic subject; extend primarily the rural background horizontally to create 16:9, with the girl center-right and useful negative space to left. Extend the existing low rough wooden fence, thatched Korean farmhouse, earth and bare early-spring hills under matching daylight. No new person, boy, mother, animal or tool. At the lower frame keep her lifted WHITE COTTON APRON hem forming a cloth pouch with EXACTLY THREE potatoes; fingers hold cloth edges, never potatoes. Preserve original hand pose wherever visible. Frame head to waist/apron, realistic natural body proportions. This is S01-04 first frame from the unseen boy's point of view: she looks toward him at camera position, still wearing her ORIGINAL slight smile just before registering his refusal. The smile will fade IN THE VIDEO, so do NOT change it in this image. Photorealistic period film still, 1930s Korean village, restrained natural earthy light, no text, captions, panels, borders or watermark. Absolute priority is faithful preservation of the face from the most recent user photo, not creating a lookalike.
 ```
 
 
