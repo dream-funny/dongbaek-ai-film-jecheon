@@ -1,0 +1,12 @@
+# S01-02 시작 이미지 수정
+
+사용자 요청: 두 인물의 정면 카메라 응시를 자연스러운 상호 시선으로 변경.
+점순이는 소년의 얼굴을 바라보고, 소년은 앞치마의 감자를 내려다본다.
+감자 세 알은 흰 무명 앞치마 아랫단에 받친다. 손은 천의 가장자리만 잡는다.
+감자를 내밀기 직전의 자세이며 이 이미지로 8초 영상을 시작한다.
+
+## 실제 이미지 수정 프롬프트
+
+```text
+EDIT the attached image into a believable candid cinematic FIRST FRAME for an 8-second image-to-video shot, rather than a posed photo. STRICTLY preserve the exact ORIGINAL identities of BOTH people: boy on LEFT and Jeomsun on RIGHT, same facial proportions, eyes, nose, lips, hair, age appearance and body builds. Preserve the original worn ivory boy jeogori and grey-brown baji, straw sandals, girl's original muted ochre jeogori and original goreum knot, dark plum skirt, black rubber shoes, braid with dark ribbon, plain WHITE COTTON WAIST APRON attached at waist. Preserve the same hoe on the ground, thatched house, fence, mountain village, early-spring light and earthy photographic look. CHANGE THEIR BODY ORIENTATION AND GAZES: Both remain in natural low crouching positions at the same distance, but turn their torsos about 25–35 degrees toward each other. Girl on right turns head and eyes toward boy's face on frame left, with a small tentative closed-mouth smile, not a broad portrait smile. Boy on left turns head slightly toward her and lowers eyes toward the potatoes and apron pouch, with a reserved uncertain expression; he has NOT turned away or refused yet. NEITHER person looks at camera. Clearly readable natural three-quarter faces, not extreme profiles, keep facial likeness absolutely faithful. KEY ACTION START STATE: Girl holds the TWO outer edges of her WHITE apron lower hem just above her OWN lap, creating a shallow cloth pouch with EXACTLY THREE whole hot steamed potatoes inside, faint steam rising. Her elbows are still slightly bent and the pouch is near her own body BEFORE she gently extends it toward the boy in the subsequent video. Fingers grip ONLY fabric edges; NO bare hand touches potatoes. Make the fabric remain physically attached to her waist, not a loose towel. Boy's hands rest naturally on his own knees, no reaching or taking a potato. Eye-level MEDIUM TWO-SHOT, 35mm lens, wide 16:9, same camera side and clear spatial axis, candid rural period film still. No mother, no other person, no animals, no duplicate hands, no extra potatoes, no text, subtitles, captions, borders or watermark. Do not change faces or redesign costumes. Photorealistic live-action, natural skin texture, correct anatomy.
+```

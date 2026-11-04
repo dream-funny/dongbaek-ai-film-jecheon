@@ -3,7 +3,7 @@
 
 ## 콘티 보기 · 다운로드
 
-### 키 이미지와 영상 프롬프트만 받기 — 10.44MB
+### 키 이미지와 영상 프롬프트만 받기 — 10.43MB
 
 **[keyframes-and-prompts.zip 파일 화면 열기](https://github.com/dream-funny/dongbaek-ai-film-jecheon/blob/main/downloads/keyframes-and-prompts.zip)**
 

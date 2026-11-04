@@ -59,7 +59,7 @@ ONE single WIDE 16:9 live-action photorealistic START FRAME of an 8-second film 
 S01-02 | Flow AI | 생성 8초 / 편집 8초
 1930년대 강원 농촌, 이른 봄. 16:9 시네마틱 실사, 자연광, 흙빛 색감.
 시작 상태: 감자를 내밀기 직전 — 첨부 키 이미지와 동일한 상태.
-행동: 점순이가 흰색 무명 앞치마 아랫단으로 감싼 뜨거운 감자 세 알을 조심스럽게 내민다. 손은 천의 가장자리만 잡는다.
+행동: 점순이는 나의 얼굴을 보며 흰색 무명 앞치마에 감싼 뜨거운 감자 세 알을 조심스럽게 내민다. 나는 앞치마의 감자를 내려다본다. 두 사람은 카메라를 보지 않는다. 손은 천의 가장자리만 잡는다.
 카메라: 미디엄 투숏·35mm·느린 전진. 시작 이미지와 같은 앵글, 한 번의 연속 숏, 임의 컷 전환 없음.
 한국어 육성 대사: 점순이: 느 집엔 이런 거 없지? 뜨거울 때 먹어.
 환경음·효과음: 바람, 옷자락.
@@ -72,8 +72,8 @@ S01-02 | Flow AI | 생성 8초 / 편집 8초
 ```text
 S01-02 | Flow AI | Generate 8s / Edit 8s
 Early spring, 1930s rural Gangwon Korea. 16:9 cinematic live action, natural light, earthy palette.
-START STATE: Boy frame left beside hoe, Jeomsun crouched frame right outside low fence. Girl wears a plain WHITE COTTON WAIST APRON over her plum skirt and lifts the lower apron hem into a pouch near her lap containing EXACTLY THREE steaming potatoes. Fingers grip ONLY apron edges, never hot potatoes, BEFORE extending this cloth pouch toward boy. Medium two-shot. Both faces visible. Noon.
-ACTION: Jeomsun carefully extends a pouch made from the lower hem of her white cotton waist apron, containing exactly three hot steamed potatoes. Her fingers grip only cloth edges, never potatoes.
+START STATE: Boy crouches frame left beside the hoe with hands on his knees, torso turned toward Jeomsun and eyes lowered to the potatoes. Jeomsun crouches frame right, body turned toward the boy and eyes on his face with a small tentative smile. NEITHER looks at the camera. Girl wears a plain WHITE COTTON WAIST APRON over her plum skirt and lifts the lower apron hem into a pouch near her lap containing EXACTLY THREE steaming potatoes. Fingers grip ONLY apron edges, never hot potatoes, BEFORE extending this cloth pouch toward boy. Medium two-shot. Both faces visible. Noon.
+ACTION: Jeomsun looks at the boy’s face and carefully extends her white cotton apron pouch with exactly three hot potatoes. The boy looks down at the potatoes. Neither looks into the camera. Her fingers grip only cloth edges, never potatoes.
 CAMERA: Medium two-shot, 35mm, slow push in; maintain start-frame angle, one continuous shot, no spontaneous cuts.
 Spoken ORIGINAL KOREAN, never translated: 점순이: 느 집엔 이런 거 없지? 뜨거울 때 먹어.
 Diegetic sounds: Breeze, cloth rustle.
@@ -84,7 +84,7 @@ White cotton waist apron cradles exactly three hot potatoes. Fingers hold cloth 
 
 #### 시작 이미지 프롬프트
 ```text
-ONE single WIDE 16:9 live-action photorealistic START FRAME of an 8-second film clip. Early spring, 1930s rural Gangwon Korea, muted earth colors, unretouched skin, natural soft light, subtle film grain. Identity reference contains ONLY boy on left and girl on right: faithfully preserve their faces, bodies, original hair, original clothing and original goreum knots. Boy: short untidy black hair, faded ivory jeogori, grey-brown baji, straw sandals. Girl: round face, one black braid with dark ribbon, muted ochre jeogori, dark plum chima, black rubber shoes. Use location and prop boards only for environment/object appearance, never their layout. CRITICAL: NO MOTHER, NO ADULT WOMAN, NO THIRD HUMAN, NO bystander, NO extra hands, NO silhouette. Include only explicitly requested characters; if an isolated closeup, no other face. Image is the instant BEFORE the named action, not mid-action or its ending. No collage, no panels, no text, no captions, no logo, no modern objects, no costume redesign, no animal impact/blood/wounds. Spicebush flowers yellow, not red camellia. Hodeugi is a short straight bark tube, not a smoking pipe. START COMPOSITION: Boy frame left beside hoe, Jeomsun crouched frame right outside low fence. Girl wears a plain WHITE COTTON WAIST APRON over her plum skirt and lifts the lower apron hem into a pouch near her lap containing EXACTLY THREE steaming potatoes. Fingers grip ONLY apron edges, never hot potatoes, BEFORE extending this cloth pouch toward boy. Medium two-shot. Both faces visible. Noon.
+ONE single WIDE 16:9 live-action photorealistic START FRAME of an 8-second film clip. Early spring, 1930s rural Gangwon Korea, muted earth colors, unretouched skin, natural soft light, subtle film grain. Identity reference contains ONLY boy on left and girl on right: faithfully preserve their faces, bodies, original hair, original clothing and original goreum knots. Boy: short untidy black hair, faded ivory jeogori, grey-brown baji, straw sandals. Girl: round face, one black braid with dark ribbon, muted ochre jeogori, dark plum chima, black rubber shoes. Use location and prop boards only for environment/object appearance, never their layout. CRITICAL: NO MOTHER, NO ADULT WOMAN, NO THIRD HUMAN, NO bystander, NO extra hands, NO silhouette. Include only explicitly requested characters; if an isolated closeup, no other face. Image is the instant BEFORE the named action, not mid-action or its ending. No collage, no panels, no text, no captions, no logo, no modern objects, no costume redesign, no animal impact/blood/wounds. Spicebush flowers yellow, not red camellia. Hodeugi is a short straight bark tube, not a smoking pipe. START COMPOSITION: Boy crouches frame left beside the hoe with hands on his knees, torso turned toward Jeomsun and eyes lowered to the potatoes. Jeomsun crouches frame right, body turned toward the boy and eyes on his face with a small tentative smile. NEITHER looks at the camera. Girl wears a plain WHITE COTTON WAIST APRON over her plum skirt and lifts the lower apron hem into a pouch near her lap containing EXACTLY THREE steaming potatoes. Fingers grip ONLY apron edges, never hot potatoes, BEFORE extending this cloth pouch toward boy. Medium two-shot. Both faces visible. Noon.
 ```
 
 
